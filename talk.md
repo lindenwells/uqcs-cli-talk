@@ -64,3 +64,5 @@
 
     - plugins
       - vim-coc for Intellisense autocomplete.
+
+    - How to learn? vimtutor. vimtutor is the official way to learn vim. It just loads up a temp file that you can play around with. It will explain stuff so much better than I could, and since you're typing stuff out yourself, you will probably retain info better. It will take an hour or so
