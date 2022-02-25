@@ -20,6 +20,7 @@
 
   - If you are a student of EAIT in the current semester, you have access to moss.
     What's moss? It's a UQ-run computer that students can "connect" to from anywhere with internet using ssh (secure shell)
+  - https://student.eait.uq.edu.au/infrastructure/remote-access/ssh.html
 
   - I'm going to talk about different paths to a terminal with ssh installed. My goal once I've done that is to be able to type `ssh` into a terminal and get the usage info back.
 
