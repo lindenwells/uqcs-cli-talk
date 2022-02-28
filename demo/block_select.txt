@@ -1,0 +1,9 @@
+   1   │ {
+   2   │     "ApiConstants": {
+   3   │         "baseUrl": "http://localhost:4000"
+   4   │     },
+   5   │     "Constants": {
+   6   │         "clientId": "redacted",
+   7   │         "userPoolId": "work stuff"
+   8   │     }
+   9   │ }

@@ -59,6 +59,10 @@
 
     - A wowee vim demo such as [Neil's](https://youtu.be/TIS7zS-yN04?t=426)?
 
+      - see block_select.txt
+
+      - see lowercase_names.txt
+
     - undo tree: tell a story
 
     - weird arrow keys hjkl
@@ -71,8 +75,10 @@
 
     - plugins
 
-      - vim-coc for Intellisense autocomplete.
+      - vim-coc for Intellisense autocomplete (can't get it to work on moss).
 
         - provide a demo of explore a nested structure, like a deep JS object.
 
-    - How to learn? vimtutor. vimtutor is the official way to learn vim. It just loads up a temp file that you can play around with. It will explain stuff so much better than I could, and since you're typing stuff out yourself, you will probably retain info better. It will take an hour or so
+        - see beeg_nesting.json
+
+    - How to learn? vimtutor. vimtutor is the official way to learn vim. It just loads up a temp file that you can play around with. It will explain stuff so much better than I could, and since you're typing stuff out yourself, you will probably retain info better. It will take an hour or so for a first pass and using vim will be like learning to touch-type all over again; for every action except typing you have to think about what you want and how that's done in this unfamiliar environment.
