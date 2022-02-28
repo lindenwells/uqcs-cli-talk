@@ -73,6 +73,12 @@
 
     - copying between files
 
+      - can't use moss' system clipboard, so you have to use either:
+
+        - vim's clipboard (or registers)
+        - your OS clipboard
+        - scp
+
     - plugins
 
       - vim-coc for Intellisense autocomplete (can't get it to work on moss).
