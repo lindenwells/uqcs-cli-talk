@@ -73,7 +73,7 @@
 
     - copying between files
 
-      - can't use moss' system clipboard, so you have to use either:
+      - Here's a scenario: see 'talk' tmux session. Options available for copying are:
 
         - vim's clipboard (or registers)
         - your OS clipboard
@@ -85,6 +85,39 @@
 
         - provide a demo of explore a nested structure, like a deep JS object.
 
-        - see beeg_nesting.json
+        - see beeg_nesting.js
 
     - How to learn? vimtutor. vimtutor is the official way to learn vim. It just loads up a temp file that you can play around with. It will explain stuff so much better than I could, and since you're typing stuff out yourself, you will probably retain info better. It will take an hour or so for a first pass and using vim will be like learning to touch-type all over again; for every action except typing you have to think about what you want and how that's done in this unfamiliar environment.
+
+- tmux
+
+  - Stands for terminal multiplexer. If you've done CSSE2010, you probably know what a multiplexer is.
+    A multiplexer is a way of switching between inputs with a common output. See where I'm going here?
+    Multiple terminals somehow within one terminal.
+
+  - The "data structures" of tmux
+
+    - tmux manages sessions
+    - sessions have windows
+    - windows have panes
+
+  - shell commands
+
+    - `tmux new-session`/`tmux new` [`-s yoursessionname`]
+    - `tmux attach-session`/`tmux attach`/`tmux a` [`-t yoursessionname`]
+    - `tmux ls`
+
+  - Disclaimer for tmux on moss:
+
+    - The moss admins have configured tmux's bindings to be different.
+      See `tmux_files/tmux.conf` for moss's tmux config at the time of recording.
+      See `tmux_files/.tmux.conf` for my small personal config that "restores" tmux and does a couple of other things.
+
+  - tmux key bindings (to be used within tmux)
+    - `<prefix> ?`
+    - `<prefix> "`
+    - `<prefix> %`
+    - `<prefix> Left/Right/Up/Down`
+    - `<prefix> c`
+    - `<prefix> p`
+    - `<prefix> n`
