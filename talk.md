@@ -63,8 +63,6 @@
 
       - see lowercase_names.txt
 
-    - undo tree: tell a story
-
     - weird arrow keys hjkl
 
     - modes (WHY CAN'T I TYPE?!!1)
