@@ -119,3 +119,11 @@
     - `<prefix> c`
     - `<prefix> p`
     - `<prefix> n`
+
+  - common pitfalls
+    
+    - copying between files
+
+    - default terminal environment variable
+
+    - can't scroll up to see the full output of a command (see "copy mode")
